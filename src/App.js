@@ -17,14 +17,14 @@ class App extends Component {
     };
   }
 
-  // تشغيل التايمر عند تركيب المكون
+  
   componentDidMount() {
     this.timer = setInterval(() => {
       this.setState({ timeInterval: Math.floor((new Date() - this.state.mountedTime) / 1000) });
     }, 1000);
   }
 
-  // تنظيف التايمر عند إلغاء المكون
+  
   componentWillUnmount() {
     clearInterval(this.timer);
   }

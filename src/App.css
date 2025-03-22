@@ -1,4 +1,4 @@
-/* تنسيق عام للصفحة */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -7,7 +7,7 @@ body {
     padding: 0;
   }
   
-  /* تنسيق الحاوية الرئيسية */
+  
   .app-container {
     max-width: 400px;
     margin: 50px auto;
@@ -17,7 +17,7 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   
-  /* زر التحكم في العرض */
+  
   .toggle-button {
     background-color: #007bff;
     color: white;
@@ -33,7 +33,7 @@ body {
     background-color: #0056b3;
   }
   
-  /* تنسيق البروفايل */
+  
   .profile {
     margin-top: 20px;
   }
@@ -58,7 +58,7 @@ body {
     color: #133558;
   }
   
-  /* عداد الوقت */
+  
   .timer {
     margin-top: 20px;
     font-size: 18px;
